@@ -1,0 +1,49 @@
+<!-- HTML Code -->
+<html>
+    <head>
+        <title>SammySploit Webpage</title>
+        <style>
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+        <body>
+            <center><h1>Forms</h1></center>
+            <a href="https://www.youtube.com/channel/UCQk4w7kawmnl2YIAWzNF0AA/" target="_blank"><img src="https://yt3.ggpht.com/a/AGF-l7-UP4ahmfwr26Pdy7iXyPYs2ER5uT5XxTksog=s900-c-k-c0xffffffff-no-rj-mo" width="100"/></a>
+            <br />
+            <h1>Click the image for something cool!</h1>
+            <br />
+            <form action="" method="">
+                Username:
+                <input type="text"></form></input>
+                Password:
+                <input type="password" />
+                <br />
+                <br />
+                Hobbies: Movies<input id="movies" type="checkbox" name="hobbies"/> Games<input id="hiking"type="checkbox" name="hobbies"/> 
+                <br />
+                <br />
+                Which do you like more: Movies<input type="radio" name="favorite" /> Games<input type="radio" name="favorite" /> 
+                <br />
+                <br />
+                <input type="submit" name="submit" id="my_submit" value="submit" />
+                <br />
+                <br />
+                <b>Which game do you like the most:</b>
+                <select name="select" id="game_selection">
+                    <option value="">Select Game</option>
+                    <option value="Battle Royale">Fortnite</option>
+                    <option value="Childish">Roblox</option>
+                </select>
+                <br />
+                <br />
+                Comments:
+                <br />
+                <textarea rows="10" cols="30">Type in your comment here</textarea>
+            </form>
+        </body>
+    </head>
+</html>
