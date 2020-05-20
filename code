@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Buttons</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+            body{
+              background-color: black;
+              color: white;
+              al
+            }
+            
+            .btn-warning{
+              background-color: #563d7c;
+              color: #FFBE00;
+              border-color: #FFBE00;
+              border-width: 1px;
+              border-radius: 6px;
+            }
+
+            .btn-warning:hover{
+              background-color: #FFBE00;
+              color: #563d7c;
+              border-color: #FFBE00;
+              font-weight: bold;
+            }
+    </style>
+  </head>
+  <body>
+    <h1>Nice Button:</h1>
+    <button type="button" class="btn btn-warning">Download</button>
+  </body>
+</html>
