@@ -1,0 +1,15 @@
+var head = document.getElementById('para');
+var head1 = document.getElementById('para2');
+var first = document.getElementById('inputName');
+var but = document.getElementById("but")
+var head2 = document.getElementById("head2")
+
+first.addEventListener('keyup',function(){
+    head.innerHTML = this.value
+    head1.innerHTML = this.value
+});
+
+but.addEventListener("click", function(){
+    head2.innerHTML = "THANK YOU FOR YOUR SUBMISSION"
+});
+
