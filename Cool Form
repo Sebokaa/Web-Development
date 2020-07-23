@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="bootstrap.css" />
+
+    <style>
+        p {
+            display: inline;
+        }
+
+        #sup {
+            margin-left: 12px;
+        }
+
+        .form-control {
+            width: 30%;
+            margin-left: 35%;
+            text-align: center;
+        }
+
+        .btn-dark {
+            width: 20%;
+            color: #fff;
+            background-color: #23272b;
+            border-color: #23272b;
+        }
+
+        .btn-dark:hover {
+            color: #23272b;
+            background-color: #fff;
+            border-color: #1d2124;
+        }
+
+        #head2{
+            font-size: 70px;
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <center><b>
+            <h1>SammySploit</h1>
+        </b></center>
+    <hr />
+    <h2>This is the webpage of sammysploit</h2>
+    <li>
+        Be respectful
+    </li>
+    <li>
+        Be polite
+    </li>
+    <li>
+        No curse words
+    </li>
+    <br />
+    <br />
+    <h4>If you have read these rules, please check one of the following:</h4>
+
+    <form>
+        <div class="row">
+            <div class="col">
+                <input type="text" id="inputName" class="form-control" placeholder="Full Name">
+            </div>
+        </div>
+    </form>
+
+    <form>
+        <input type="radio" id='sup' name="yes" value="">
+        <p>I </p>
+        <p id="para"></p>
+        <p></p> agree to follow these rules
+        <br />
+        <input type="radio" id='sup' name="yes" value="">
+        <p>I </p>
+        <p id="para2"></p>
+        <p></p> will not agree to follow these rules
+    </form>
+
+    <center><button id="but" type="button" class="btn btn-dark">Submit</button></center>
+    <br />
+    <br/>
+    <center>
+        <h1 id="head2"></h1>
+    </center>
+
+    <!--<script src = "lib/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jsFiles/jqueryExamples.js"></script>
+</body>
+
+</html>
